@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+.wrapper{
+    display: grid;
+    grid-template-rows: repeat(2,1fr);
+    gap: 1rem;
+    width: 100%;
+    max-height: 1000px;
+    border: 1px solid black;
+    padding: 14px;
+}
+
+.operaciones{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: center;
+    border: 2px solid black;
+    padding: 25px;
+    width: 100%;
+}
+
+.operaciones span{
+    font-size: 60px;
+    font-weight: 600;
+}
+
+.wrapper .btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    width: 100%;
+}
+
+.btn span a{
+    text-decoration: none;
+    background-color: orange;
+    padding: 20px;
+    border-radius: 50%;
+}
